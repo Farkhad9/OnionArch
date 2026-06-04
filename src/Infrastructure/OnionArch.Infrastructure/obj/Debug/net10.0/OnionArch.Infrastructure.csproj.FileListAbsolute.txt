@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\bin\Debug\net10.0\OnionArch.Infrastructure.deps.json
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\bin\Debug\net10.0\OnionArch.Infrastructure.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\bin\Debug\net10.0\OnionArch.Infrastructure.pdb
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.sourcelink.json
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\refint\OnionArch.Infrastructure.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\OnionArch.Infrastructure.pdb
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Infrastructure\obj\Debug\net10.0\ref\OnionArch.Infrastructure.dll
