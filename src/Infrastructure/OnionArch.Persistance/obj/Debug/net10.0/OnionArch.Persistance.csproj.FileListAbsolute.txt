@@ -11,3 +11,8 @@ C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\obj\Deb
 C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\obj\Debug\net10.0\refint\OnionArch.Persistance.dll
 C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\obj\Debug\net10.0\OnionArch.Persistance.pdb
 C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\obj\Debug\net10.0\ref\OnionArch.Persistance.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\bin\Debug\net10.0\OnionArch.Application.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\bin\Debug\net10.0\OnionArch.Domain.dll
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\bin\Debug\net10.0\OnionArch.Application.pdb
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\bin\Debug\net10.0\OnionArch.Domain.pdb
+C:\Users\User\Desktop\OnionArch\src\Infrastructure\OnionArch.Persistance\obj\Debug\net10.0\OnionArc.DDEF1915.Up2Date

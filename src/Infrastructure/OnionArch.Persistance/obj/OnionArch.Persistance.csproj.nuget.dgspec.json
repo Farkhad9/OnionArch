@@ -59,6 +59,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[10.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.8, )"
             }
           },
           "imports": [
@@ -759,10 +763,6 @@
               "version": "[10.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[10.0.8, )"
             }

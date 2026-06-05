@@ -38,6 +38,28 @@
           }
         }
       },
+      "Microsoft.AspNetCore.OpenApi/10.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "2.0.0"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "build/Microsoft.AspNetCore.OpenApi.targets": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -371,6 +393,19 @@
           }
         }
       },
+      "Microsoft.OpenApi/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".xml;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.OpenApi.dll": {
+            "related": ".xml;.pdb"
+          }
+        }
+      },
       "Microsoft.SqlServer.Server/1.0.0": {
         "type": "package",
         "compile": {
@@ -383,6 +418,22 @@
             "related": ".xml;.pdb"
           }
         }
+      },
+      "Scalar.AspNetCore/2.14.14": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.ClientModel/1.5.1": {
         "type": "package",
@@ -489,6 +540,61 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "OnionArch.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8",
+          "OnionArch.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnionArch.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionArch.Application.dll": {}
+        }
+      },
+      "OnionArch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8"
+        },
+        "compile": {
+          "bin/placeholder/OnionArch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionArch.Domain.dll": {}
+        }
+      },
+      "OnionArch.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8"
+        },
+        "compile": {
+          "bin/placeholder/OnionArch.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionArch.Infrastructure.dll": {}
+        }
+      },
+      "OnionArch.Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.8",
+          "OnionArch.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OnionArch.Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OnionArch.Persistance.dll": {}
+        }
       }
     }
   },
@@ -531,6 +637,24 @@
         "lib/net8.0/Azure.Identity.xml",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "Microsoft.AspNetCore.OpenApi/10.0.8": {
+      "sha512": "cw24xHE2QaWwyEG9GQwFbjboyabub6Vd80DIItUGENzcQOa/BEnTrXsg2GADqWTmY/3ycqk9ToLGjgvF/VRlGA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.openapi/10.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/cs/Microsoft.AspNetCore.OpenApi.SourceGenerators.dll",
+        "build/Microsoft.AspNetCore.OpenApi.targets",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.dll",
+        "lib/net10.0/Microsoft.AspNetCore.OpenApi.xml",
+        "microsoft.aspnetcore.openapi.10.0.8.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -957,6 +1081,24 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
+    "Microsoft.OpenApi/2.0.0": {
+      "sha512": "GGYLfzV/G/ct80OZ45JxnWP7NvMX1BCugn/lX7TH5o0lcVaviavsLMTxmFV2AybXWjbi3h6FF1vgZiTK6PXndw==",
+      "type": "package",
+      "path": "microsoft.openapi/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/Microsoft.OpenApi.dll",
+        "lib/net8.0/Microsoft.OpenApi.pdb",
+        "lib/net8.0/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.2.0.0.nupkg.sha512",
+        "microsoft.openapi.nuspec"
+      ]
+    },
     "Microsoft.SqlServer.Server/1.0.0": {
       "sha512": "N4KeF3cpcm1PUHym1RmakkzfkEv3GRMyofVv40uXsQhCQeglr2OHNcUk2WOG51AKpGO8ynGpo9M/kFXSzghwug==",
       "type": "package",
@@ -973,6 +1115,25 @@
         "lib/netstandard2.0/Microsoft.SqlServer.Server.xml",
         "microsoft.sqlserver.server.1.0.0.nupkg.sha512",
         "microsoft.sqlserver.server.nuspec"
+      ]
+    },
+    "Scalar.AspNetCore/2.14.14": {
+      "sha512": "xNa3MadDudKk7y+0gQPBQihVL+JxGP3KNZHB4Zl2W42ATFIffHHHBjsuyKJ4YPUnnA7NUiHR/diqV/FTZC9dkg==",
+      "type": "package",
+      "path": "scalar.aspnetcore/2.14.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0/Scalar.AspNetCore.dll",
+        "lib/net10.0/Scalar.AspNetCore.xml",
+        "lib/net8.0/Scalar.AspNetCore.dll",
+        "lib/net8.0/Scalar.AspNetCore.xml",
+        "lib/net9.0/Scalar.AspNetCore.dll",
+        "lib/net9.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.2.14.14.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
       ]
     },
     "System.ClientModel/1.5.1": {
@@ -1141,13 +1302,37 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "OnionArch.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/OnionArch.Application/OnionArch.Application.csproj",
+      "msbuildProject": "../../Core/OnionArch.Application/OnionArch.Application.csproj"
+    },
+    "OnionArch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Core/OnionArch.Domain/OnionArch.Domain.csproj",
+      "msbuildProject": "../../Core/OnionArch.Domain/OnionArch.Domain.csproj"
+    },
+    "OnionArch.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/OnionArch.Infrastructure/OnionArch.Infrastructure.csproj",
+      "msbuildProject": "../../Infrastructure/OnionArch.Infrastructure/OnionArch.Infrastructure.csproj"
+    },
+    "OnionArch.Persistance/1.0.0": {
+      "type": "project",
+      "path": "../../Infrastructure/OnionArch.Persistance/OnionArch.Persistance.csproj",
+      "msbuildProject": "../../Infrastructure/OnionArch.Persistance/OnionArch.Persistance.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Microsoft.AspNetCore.OpenApi >= 10.0.8",
       "Microsoft.EntityFrameworkCore >= 10.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.8",
-      "Microsoft.Extensions.Configuration.Abstractions >= 10.0.8"
+      "Microsoft.Extensions.Configuration.Abstractions >= 10.0.8",
+      "OnionArch.Infrastructure >= 1.0.0",
+      "OnionArch.Persistance >= 1.0.0",
+      "Scalar.AspNetCore >= 2.14.14"
     ]
   },
   "packageFolders": {
@@ -1182,7 +1367,14 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\User\\Desktop\\OnionArch\\src\\Infrastructure\\OnionArch.Infrastructure\\OnionArch.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\OnionArch\\src\\Infrastructure\\OnionArch.Infrastructure\\OnionArch.Infrastructure.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\OnionArch\\src\\Infrastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\OnionArch\\src\\Infrastructure\\OnionArch.Persistance\\OnionArch.Persistance.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1202,6 +1394,10 @@
         "framework": "net10.0",
         "targetAlias": "net10.0",
         "dependencies": {
+          "Microsoft.AspNetCore.OpenApi": {
+            "target": "Package",
+            "version": "[10.0.8, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[10.0.8, )"
@@ -1213,6 +1409,10 @@
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[10.0.8, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[2.14.14, )"
           }
         },
         "imports": [
